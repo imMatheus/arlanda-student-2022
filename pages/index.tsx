@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
     const [timeNow, setTimeNow] = useState(new Date())
-    const [birthday] = useState(new Date('08 June 2022'))
+    const [birthday] = useState(new Date('03 June 2022'))
     const [isZero, setIsZero] = useState(false)
     const [days, setDays] = useState<number | string>(0)
     const [timeInterval, setTimeInterval] = useState<any>()
